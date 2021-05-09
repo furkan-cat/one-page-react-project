@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# One Page React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is my first react project that i've already started today. I'll keep you guys be updated.. Stay tuned!
 
 ## Available Scripts
 
