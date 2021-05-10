@@ -1,3 +1,5 @@
+This is my first one page react project. I'm currently working on this project. Keep tuned!!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
