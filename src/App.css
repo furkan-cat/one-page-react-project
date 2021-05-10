@@ -7,3 +7,8 @@
 body {
   background-color: #010610;
 }
+
+.app {
+  width: 90%;
+  margin: 2.2rem auto;
+}
