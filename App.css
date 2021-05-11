@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010610;
+}
+
+.app {
+  width: 90%;
+  margin: 2.2rem auto;
+}
+
+@media screen and (min-width: 375px) {
+  .app {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .app {
+    width: 95%;
+    margin: 1.5rem auto;
+  }
+}
