@@ -1,6 +1,5 @@
 import "./Posts.css";
 import logo from "../../public/images/tpp-graphic-ustr-600.jpg";
-import video from "../../public/images/Feet Out of the Car Window.mp4";
 import ReactPlayer from "react-player";
 
 const Posts = () => {
