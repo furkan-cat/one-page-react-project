@@ -1,0 +1,39 @@
+.h3-container {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  color: #fff;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  width: 30%;
+  height: 650px;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.img2 {
+  display: block;
+  width: 60%;
+  height: 600px;
+  padding: 1rem;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-button {
+  font-size: 1.3rem;
+  border-radius: 6px;
+  padding: 0.8rem 4rem;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid red;
+  margin-top: 2.2rem;
+}

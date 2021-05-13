@@ -73,7 +73,7 @@ p {
   border-radius: 10px;
 }
 
-.post--text {
+.post--text--container {
   position: relative;
   width: 77%;
   left: 12%;
@@ -86,18 +86,42 @@ p {
 
 .post--text__1 {
   position: absolute;
-  display: inline-block;
+  display: block;
   left: 28%;
-  top: 55%;
+  top: 65%;
   color: #fff;
-  margin: 0 auto;
 }
 
 .post--text__2 {
   position: absolute;
-  display: inline;
+  display: block;
   text-align: center;
   left: 28%;
   top: 75%;
   color: #fff;
+}
+
+.map-container {
+  margin-top: 15rem;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+}
+
+.video {
+  display: block;
+  min-width: 80%;
+  min-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vblog-container {
+  margin-top: 10rem;
 }
