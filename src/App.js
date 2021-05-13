@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Main from "./components/Main/Main";
 import "./App.css";
 import Posts from "./components/Posts/Posts";
+import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Main />
       <Posts />
+      <PhotoGallery />
+      <Footer />
     </div>
   );
 }
