@@ -8,9 +8,6 @@
   border-radius: 2px;
   background-image: linear-gradient(to top, black, transparent),
     url("../../public/images/tyler-nix-6mze64HRU2Q-unsplash.jpg");
-  border: none;
-  border-image: none;
-  overflow: hidden;
 }
 
 .nav {
@@ -80,6 +77,20 @@ a:hover {
   transform: rotate(45deg);
 }
 
+.context {
+  position: absolute;
+  top: 29%;
+  left: 51%;
+  transform: translate(-49%, -53%);
+  text-align: center;
+}
+
+.text1 {
+  color: rgba(255, 255, 255, 0.486);
+  font-size: 4.5rem;
+  letter-spacing: 1.9rem;
+}
+
 @keyframes animate {
   0% {
     transform: translateY(0);
@@ -98,19 +109,6 @@ a:hover {
   }
 }
 
-.context {
-  position: absolute;
-  top: 29%;
-  left: 51%;
-  transform: translate(-49%, -53%);
-  text-align: center;
-}
-
-.text1 {
-  color: rgba(255, 255, 255, 0.486);
-  font-size: 4.5rem;
-  letter-spacing: 1.9rem;
-}
 /* Media Queries */
 @media screen and (min-width: 375px) {
   .header {
@@ -124,12 +122,40 @@ a:hover {
     background-image: linear-gradient(to top, black, transparent),
       url("../../public/images/tyler-nix-6mze64HRU2Q-unsplash.jpg");
   }
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-right-container {
+    display: flex;
+  }
+
+  li {
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 10px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  .icons {
+    color: black;
+  }
+
+  .icons:hover {
+    color: #fff;
+  }
+
+  a:hover {
+    color: black;
+  }
   .center {
     position: absolute;
-    left: 20%;
-    top: 48%;
-    height: 48px;
-    border-left: 5px dashed rgb(255, 255, 255);
+    left: 15%;
+    top: 47%;
+    height: 38px;
+    border-left: 4px dashed rgb(255, 255, 255);
     border-top-left-radius: 50px;
     opacity: 0.5;
   }
@@ -137,9 +163,9 @@ a:hover {
   .arrow {
     position: absolute;
     top: 0;
-    left: -6px;
-    height: 25px;
-    width: 6px;
+    left: -4px;
+    height: 22px;
+    width: 4px;
     background: rgba(255, 255, 255, 0.76);
     animation: animate 2.2s infinite;
   }
@@ -151,11 +177,37 @@ a:hover {
     left: -7px;
     width: 15px;
     height: 15px;
-    border-bottom: 5px solid rgb(255, 255, 255);
-    border-right: 5px solid rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
     border-radius: 7px;
     transform: rotate(45deg);
     opacity: 1;
+  }
+  .text1 {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 1rem;
+    letter-spacing: 1rem;
+  }
+  .context {
+    top: 35%;
+    left: 51%;
+  }
+  @keyframes animate {
+    0% {
+      transform: translateY(0);
+      opacity: 0.6;
+      transform: scale(0.9);
+    }
+    50% {
+      transform: translateY(45px);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translateY(60px);
+      opacity: 0.4;
+      transform: scale(1);
+    }
   }
 }
 
@@ -174,7 +226,7 @@ a:hover {
   .center {
     position: absolute;
     left: 20%;
-    top: 48%;
+    top: 50%;
     height: 48px;
     border-left: 5px dashed rgb(255, 255, 255);
     border-top-left-radius: 50px;
@@ -204,6 +256,18 @@ a:hover {
     transform: rotate(45deg);
     opacity: 1;
   }
+  .text1 {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 1.2rem;
+    letter-spacing: 1.1rem;
+  }
+  .context {
+    top: 34%;
+    left: 51%;
+  }
+  li {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -221,7 +285,7 @@ a:hover {
   .center {
     position: absolute;
     left: 20%;
-    top: 51%;
+    top: 54%;
     height: 59px;
     border-left: 5px dashed rgb(255, 255, 255);
     border-top-left-radius: 50px;
@@ -251,6 +315,15 @@ a:hover {
     transform: rotate(45deg);
     opacity: 1;
   }
+  .text1 {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 2rem;
+    letter-spacing: 1.6rem;
+  }
+  .context {
+    top: 33%;
+    left: 51%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -266,7 +339,7 @@ a:hover {
       url("../../public/images/tyler-nix-6mze64HRU2Q-unsplash.jpg");
   }
   .center {
-    top: 57%;
+    top: 59%;
     opacity: 0.6;
   }
   .context {
@@ -293,19 +366,26 @@ a:hover {
     background-image: linear-gradient(to top, black, transparent),
       url("../../public/images/tyler-nix-6mze64HRU2Q-unsplash.jpg");
   }
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
   .center {
-    top: 60%;
+    top: 56%;
     opacity: 0.7;
   }
   .context {
-    top: 31%;
+    top: 33%;
     left: 51%;
   }
 
   .text1 {
     color: rgba(255, 255, 255, 0.486);
-    font-size: 2.3rem;
+    font-size: 3rem;
     letter-spacing: 1.6rem;
+  }
+  li {
+    font-size: 1.8rem;
   }
 }
 
@@ -320,6 +400,10 @@ a:hover {
     border-radius: 2px;
     background-image: linear-gradient(to top, black, transparent),
       url("../../public/images/tyler-nix-6mze64HRU2Q-unsplash.jpg");
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
   }
   .center {
     top: 65%;
@@ -338,7 +422,7 @@ a:hover {
   .center {
     position: absolute;
     left: 20%;
-    top: 65%;
+    top: 58%;
     height: 90px;
     border-left: 7px dashed rgb(255, 255, 255);
     border-top-left-radius: 50px;
@@ -366,6 +450,10 @@ a:hover {
     border-radius: 7px;
     transform: rotate(45deg);
   }
+  .context {
+    top: 32%;
+    left: 51%;
+  }
 }
 
 @media screen and (min-width: 1600px) {
@@ -380,12 +468,13 @@ a:hover {
     background-image: linear-gradient(to top, black, transparent),
       url("../../public/images/tyler-nix-6mze64HRU2Q-unsplash.jpg");
   }
+
   .center {
-    top: 72%;
+    top: 58%;
     opacity: 0.7;
   }
   .context {
-    top: 27%;
+    top: 32%;
     left: 51%;
   }
 
@@ -409,11 +498,11 @@ a:hover {
       url("../../public/images/tyler-nix-6mze64HRU2Q-unsplash.jpg");
   }
   .center {
-    top: 75%;
+    top: 66%;
     opacity: 0.7;
   }
   .context {
-    top: 27%;
+    top: 34%;
     left: 51%;
   }
 

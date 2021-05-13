@@ -7,6 +7,7 @@
   background-position: 100% 55%;
   border-radius: 2px;
   background-image: linear-gradient(to bottom, black, transparent),
+    (to top, black, transparent),
     url("../../public/images/luke-stackpoole-ZRsJmpt9pNI-unsplash.jpg");
 }
 
@@ -72,33 +73,33 @@ h3 {
   }
   .second-photo--container {
     width: 26%;
-    left: 67%;
+    left: 71%;
     top: 13%;
     height: 215px;
   }
   .second--photo {
     width: 90%;
-    left: 13px;
+    left: 10px;
     top: 15px;
     height: 194px;
   }
   section {
-    width: 350px;
+    width: 280px;
     top: 35%;
     left: 5%;
   }
 
   hr {
-    width: 30rem;
+    width: 22rem;
     margin: 0.7rem 0;
   }
   h3 {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 300;
   }
   .text {
-    font-size: 0.8rem;
-    font-weight: 300;
+    font-size: 0.7rem;
+    font-weight: 200;
     color: #fff;
   }
 }
@@ -115,8 +116,8 @@ h3 {
   }
   .second-photo--container {
     width: 21%;
-    left: 72%;
-    top: 57%;
+    left: 70%;
+    top: 25%;
     height: 215px;
   }
   .second--photo {
@@ -132,7 +133,7 @@ h3 {
   }
 
   hr {
-    width: 30.5rem;
+    width: 27rem;
     margin: 0.7rem 0;
   }
   h3 {
@@ -140,7 +141,7 @@ h3 {
     font-weight: 400;
   }
   .text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 200;
     color: #fff;
   }
@@ -158,15 +159,15 @@ h3 {
   }
   .second-photo--container {
     width: 23%;
-    left: 67%;
-    top: 20%;
-    height: 310px;
+    left: 70%;
+    top: 28%;
+    height: 275px;
   }
   .second--photo {
     width: 90%;
-    left: 19px;
-    top: 24px;
-    height: 280px;
+    left: 16px;
+    top: 0px;
+    height: 269px;
   }
   section {
     width: 590px;
@@ -195,7 +196,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: 50% 70%;
     background-image: linear-gradient(to bottom, black, transparent),
-    url("../../public/images/luke-stackpoole-ZRsJmpt9pNI-unsplash.jpg");
+      url("../../public/images/luke-stackpoole-ZRsJmpt9pNI-unsplash.jpg");
   }
   .second-photo--container {
     width: 22%;
@@ -262,7 +263,7 @@ h3 {
   }
 
   hr {
-    width: 37rem;
+    width: 40rem;
     margin: 0.8rem 0;
   }
   h3 {
@@ -271,6 +272,7 @@ h3 {
     letter-spacing: 0.1rem;
   }
   .text {
+    font-size: 1.2rem;
     font-weight: 400;
     letter-spacing: 0.1rem;
     color: #fff;
@@ -286,39 +288,39 @@ h3 {
     background-repeat: no-repeat;
     background-position: 71% 49%;
     border-radius: 2px;
-    background-image: linear-gradient(to bottom, black, transparent),
+    background-image: linear-gradient(360deg, black -20%, transparent),
       url("../../public/images/luke-stackpoole-ZRsJmpt9pNI-unsplash.jpg");
   }
   .second-photo--container {
-    width: 22%;
-    left: 72%;
-    top: 33%;
-    height: 310px;
+    width: 23%;
+    left: 71%;
+    top: 30%;
+    height: 500px;
   }
   .second--photo {
-    width: 90%;
-    left: 19px;
-    top: 24px;
-    height: 280px;
+    width: 87%;
+    left: 50px;
+    top: 0px;
+    height: 494px;
   }
   section {
-    width: 551px;
-    top: 35%;
-    left: 4%;
+    width: 597px;
+    top: 44%;
+    left: 14%;
   }
 
   hr {
-    width: 37rem;
-    margin: 0.8rem 0;
+    width: 58rem;
+    margin: 1rem 0;
   }
   h3 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
   }
   .text {
-    font-weight: 400;
-    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
     color: #fff;
   }
 }
