@@ -1,4 +1,4 @@
-import { FaBeer } from "react-icons/fa"; // Don't forget change it
+import { BsFillHouseFill } from "react-icons/bs"; // Don't forget change it
 import { BiSearchAlt } from "react-icons/bi";
 import { AiOutlineUser } from "react-icons/ai";
 
@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="nav">
         <ul>
           <li>
-            <FaBeer className="icons" />
+            <BsFillHouseFill className="icons" />
           </li>
         </ul>
         <ul className="nav-right-container">

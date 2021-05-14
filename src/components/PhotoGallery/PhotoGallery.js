@@ -8,10 +8,12 @@ const PhotoGallery = () => {
     <div className="h3-container">
       <h3>Our Photo Gallery</h3>
       <div className="gallery-container">
-        <img src={gallery1} className="img1" />
-        <img src={gallery2} className="img1" />
+        <img src={gallery1} className="img1 hv1" />
+        <img src={gallery2} className="img1 hv2" />
       </div>
-      <img src={gallery3} className="img2" />
+      <div className="col-2">
+        <img src={gallery3} className="img2" />
+      </div>
       <button className="gallery-button">Explore more</button>
     </div>
   );

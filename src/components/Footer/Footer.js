@@ -1,13 +1,9 @@
-import footerimg from "../../public/images/footer-background.jpg";
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-inner-container">
-        <div className="logo-box">
-          <div>Logo</div>
-        </div>
         <div className="inner-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
           cupiditate neque sit expedita quis corrupti qo nesciunt minus,

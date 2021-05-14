@@ -30,6 +30,28 @@
   object-fit: cover;
 }
 
+.gallery-container:hover .hv1 {
+  filter: blur(6px);
+}
+
+.gallery-container .hv1:hover {
+  filter: blur(0px);
+}
+
+.gallery-container:hover .hv2 {
+  filter: blur(6px);
+}
+
+.gallery-container .hv2:hover {
+  filter: blur(0px);
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .gallery-button {
   font-size: 1.3rem;
   border-radius: 6px;
@@ -38,4 +60,247 @@
   background-color: transparent;
   border: 3px solid red;
   margin-top: 2.2rem;
+}
+
+.gallery-button:hover {
+  background-color: brown;
+  color: #fff;
+}
+
+@media screen and (min-width: 375px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img1 {
+    width: 100%;
+    height: 650px;
+    padding: 1rem;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .img2 {
+    display: block;
+    width: 100%;
+    height: 600px;
+    padding: 1rem;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .gallery-button {
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 0.6rem 2.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-top: 2.2rem;
+  }
+  .gallery-button:hover {
+    background-color: red;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .h3-container h3 {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    font-size: 1.7rem;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img1 {
+    width: 100%;
+    height: 650px;
+    padding: 1rem;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .img2 {
+    display: block;
+    width: 100%;
+    height: 600px;
+    padding: 1rem;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .gallery-button {
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 0.6rem 2.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-top: 2.2rem;
+  }
+  .gallery-button:hover {
+    background-color: red;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .img1 {
+    width: 90%;
+    height: 600px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 600px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .gallery-button {
+    font-size: 1.2rem;
+    border-radius: 6px;
+    padding: 0.6rem 2.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-top: 2.2rem;
+  }
+  .gallery-button:hover {
+    background-color: red;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .img1 {
+    width: 90%;
+    height: 600px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 600px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .gallery-button {
+    font-size: 1.2rem;
+    border-radius: 6px;
+    padding: 0.6rem 2.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-top: 2.2rem;
+  }
+  .gallery-button:hover {
+    background-color: red;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .img1 {
+    width: 90%;
+    height: 800px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 800px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .gallery-button {
+    font-size: 1.2rem;
+    border-radius: 6px;
+    padding: 0.6rem 2.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-top: 2.2rem;
+  }
+
+  .gallery-button:hover {
+    background-color: red;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .img1 {
+    width: 90%;
+    height: 900px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 900px;
+    padding: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .gallery-button {
+    font-size: 1.5rem;
+    border-radius: 6px;
+    padding: 0.8rem 2.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid red;
+    margin-top: 2.2rem;
+  }
+
+  .gallery-button:hover {
+    background-color: red;
+    color: black;
+  }
 }
