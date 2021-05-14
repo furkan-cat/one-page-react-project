@@ -42,7 +42,7 @@ This is my first one page react project. Fully responsive for all devices. If yo
 
 * DOM Manipulation
 * Smooth Scrolling with React
-* Youtube Vide Player
+* Youtube Video Player
 * React CSS Manipulation
 * Css Animations
 
